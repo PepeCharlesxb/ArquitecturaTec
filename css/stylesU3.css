@@ -1,0 +1,47 @@
+.titleGeneral{
+    width: 65%;
+    height: auto;
+    position: relative;
+    background-color: midnightblue;
+    top: 50px;
+    left: 30%;
+    
+
+}
+.titleGeneral h1{
+
+    font-size: 29px;
+    font-family: "Play",sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.content{
+    width: 63%;
+    position: relative;
+    
+    top: 70px;
+    left: 32%; 
+    
+}
+.t1{
+    background-color: rgba(11, 2, 72, 0.767); 
+    padding: 10px;
+
+}
+.t1 h3{
+    font-size: 25px;
+    font-family:"Play",sans-serif ;
+    text-align: left;
+    padding: 10px;
+    background-color: blue;
+    margin: 20px;
+    
+}
+.t1 p{
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.2;
+    font-family: 'Montserrat Alternates', Courier, monospace;
+
+}
