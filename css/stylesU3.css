@@ -103,7 +103,8 @@
 .tema{
   position: absolute;
   top :70px;
-background-color: slateblue;
+  line-height: 2.1;
+
 }
 #tem {
     transform: scale(0.9);
@@ -113,7 +114,6 @@ background-color: slateblue;
 #tem:hover {
     background-color: #0f0c29;
     transform: scale(1.0);
-
     transition: transform 0.8s ease-in-out;
     font-style: bold;
     font-size: large;
