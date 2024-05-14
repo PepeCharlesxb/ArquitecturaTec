@@ -56,10 +56,14 @@
 }
 .t2 {
     position: relative;
-    top: 20px;
+   margin-top: 25px;
     background-color: rgba(5, 9, 31, 0.888); 
     padding: 10px;
+    
 
+}
+.t2 #im{
+    float: right;
 }
 .t2 h3{
     font-size: 25px;
