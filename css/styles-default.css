@@ -20,7 +20,7 @@ html {
   body {
     background: #000;
     color: #fff;
-    background-image: image-set("/img/fondo.png");
+    background-image: image-set("/ArquitecturaTec/img/fondo.png");
     background-clip: border-box;
     backdrop-filter: blur(4px);
     background-attachment: fixed;
