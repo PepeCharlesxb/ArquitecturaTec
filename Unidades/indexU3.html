@@ -108,7 +108,7 @@
                 <h3>3.1.3 Puertas de Entrada/Salida</h3>
                 <p>
                     Un puerto de E/S es un enchufe en una 
-                    <img src="/img/EsU2.webp" alt="" id="im">
+                    <img src="../img/EsU2.webp" alt="" id="im">
                     computadora al que se conecta un cable. El puerto conecta la CPU a un dispositivo 
                     
                     periférico a través de una interfaz de hardware o a la red a través de una interfaz de red. En otras palabras, un puerto de E/S es un punto de conexión que actúa como interfaz entre la computadora y dispositivos externos como mouse, impresora, módem, etc.
@@ -127,7 +127,7 @@
                 <h3>3.1.4 Controlador de Interrupciones</h3>
                 <p>
                     El controlador de interrupciones es un módulo que tiene por función gestionar las interrupciones de entrada/salida para el procesador. Esto ahorra diseñar lógica y añadir patitas al procesador. También proporciona flexibilidad porque permite idealmente, gestionar un número ilimitado señales de interrupción (favoreciendo la expansión del sistema de entrada/salida).
-                    <img src="/img/NEC_D8259AC.jpg" alt=""id="im">
+                    <img src="../img/NEC_D8259AC.jpg" alt=""id="im">
                 </p>
                 <h4>Ciclo de reconocimiento de interrupción</h4>
                 <ol>
@@ -141,7 +141,7 @@
             <section class="t2">
                 <h3>3.1.5 Controlador de Acceso Directo a Memoria</h3>
                 <p>
-                    <img src="/img/descargar.png" alt=""> ("DMA Controller"), que permite realizar estos intercambios sin apenas intervención del procesador. En los XT estaba integrado en un chip 8237A que proporcionaba 4 canales de 8 bits (puede mover solo 1 Byte cada vez); sus direcciones de puerto son 000–00Fh. Posteriormente en los AT se instalaron dos de estos integrados y las correspondientes líneas auxiliares en el bus de control. En contra de lo que podría parecer, el resultado no fue disponer de 8 canales, porque el segundo controlador se colgó en “Cascada” de la línea 4 del primero. Los canales del 
+                    <img src="../img/descargar.png" alt=""> ("DMA Controller"), que permite realizar estos intercambios sin apenas intervención del procesador. En los XT estaba integrado en un chip 8237A que proporcionaba 4 canales de 8 bits (puede mover solo 1 Byte cada vez); sus direcciones de puerto son 000–00Fh. Posteriormente en los AT se instalaron dos de estos integrados y las correspondientes líneas auxiliares en el bus de control. En contra de lo que podría parecer, el resultado no fue disponer de 8 canales, porque el segundo controlador se colgó en “Cascada” de la línea 4 del primero. Los canales del 
                     El mecanismo de acceso directo a memoria está controlado por un chip específico, el DMAC
                     segundo DMAC está asignado a las direcciones 0C0–0DFh y son de 16 bits. Pueden mover 2 Bytes (de posiciones contiguas) cada vez. Cada canal tiene asignada una prioridad para el caso de recibirse simultáneamente varias peticiones (los números más bajos tienen prioridad más alta). Pueden ser utilizados por cualquier dispositivo que los necesite (suponiendo naturalmente que esté diseñado para soportar este modo de operación). Cada sistema los asigna de forma arbitraria, pero hay algunos cuya asignación es estándar.
                 </p>
