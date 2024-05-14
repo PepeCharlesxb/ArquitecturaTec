@@ -46,7 +46,10 @@
         <main>
             <section class="t1">
                 <h3>3.1 Chip set.</h3>
-                <p>Un chipset es el conjunto de circuitos integrados diseñados con base en la arquitectura de un
+                <p>
+                    <img src="../img/AMD-B550.jpg" alt="Chipset Image">
+
+                    Un chipset es el conjunto de circuitos integrados diseñados con base en la arquitectura de un
                     procesador (en algunos casos, diseñados como parte integral de esa arquitectura), permitiendo que
                     ese tipo de procesadores funcionen en una placa base. Sirven de puente de comunicación con el resto
                     de componentes de la placa, como son la memoria, las tarjetas de expansión, los puertos USB, ratón,
@@ -55,7 +58,9 @@
                     suelen ser los circuitos integrados más grandes después de la GPU y el microprocesador. Las últimas
                     placa base carecen de puente norte, ya que los procesadores de última generación lo llevan
                     integrado.
-                    Funcionamiento:
+                    <br>
+                    <b>Funcionamiento:</b>
+
                     El chipset es el que hace posible que la placa base funcione como eje del sistema, dando soporte a
                     varios componentes e interconectándolos de forma que se comuniquen entre ellos haciendo uso de
                     diversos buses.
@@ -66,16 +71,66 @@
                     dispositivos.
                     Esto permite escoger entre varios dispositivos estándar, por ejemplo, en el caso de los buses de
                     expansión, algunas tarjetas madre pueden tener bus PCI-Express y soportar diversos tipos de tarjetas
-                    de distintos anchos de bus (1x, 8x, 16x).</p>
+                    de distintos anchos de bus (1x, 8x, 16x).
+                </p>
             </section>
+            <section class="t2">
+                <h3>
+                    3.1.1 Unidad de procesamiento.
+                </h3>
+                <p>
+                    <img src="../img/procesaaa.jpeg" alt="">
+                    La unidad central de procesamiento (siglas en inglés Central Processing Unit) es el hardware dentro
+                    de una computadora u otros dispositivos programables. Su trabajo es interpretar las instrucciones de
+                    un programa informático mediante la realización de las operaciones básicas aritméticas, lógicas y
+                    externas (provenientes de la unidad de entrada/salida). Su diseño y avance ha variado notablemente
+                    desde su creación, aumentando su eficiencia y potencia, y reduciendo aspectos como el consumo de
+                    energía y el costo.
+                    Los componentes de la CPU son:
+                    Unidad aritmético lógica (ALU): Realiza operaciones aritméticas y lógicas.
+                    Unidad de control (CU): Dirige el tráfico de información entre los registros de la CPU y conecta con
+                    la ALU las instrucciones extraídas
+                    de la memoria.
+                    Registros internos: No accesibles (de instrucción, de bus de datos y bus de dirección) y accesibles
+                    de uso específico (contador programa, puntero pila, acumulador, flags, etc.) o de uso general.
+                </p>
+
+            </section>
+
         </main>
     </div>
     <aside class="lateral">
         <h3>Temario</h3>
+        <div class="tema">
 
+            <ul>
+                <li id="tem">2.1 Organización del procesador</li>
+                <li id="tem">2.2 Estructura de registros</li>
+                <ul>
+                    <li id="tem">2.2.1 Registros visibles para el usuario</li>
+                    <li id="tem">2.2.2 Registros de control y de estados</li>
+                    <li id="tem">2.2.3 Ejemplos de registros de CPU reales</li>
+                </ul>
+                <li id="tem">2.3 El ciclo de instrucción</li>
+                <ul>
+                    <li id="tem">2.3.1 Ciclo Fetch-Decode-Execute</li>
+                    <li id="tem">2.3.2 Segmentación de instrucciones</li>
+                    <li id="tem">2.3.3 Conjunto de instrucciones, Caracteristicas y funciones</li>
+                    <li id="tem">2.3.4 Modos de direccionamiento</li>
+                </ul>
+                <li id="tem">2.4 Casos de estudio de CPU reales</li>
+            </ul>
+        </div>
+       
     </aside>
 
+<style>
+   body {
+            background-image: linear-gradient(#343232a0, #1b1818aa),
+                image-set("../img/fondoU3.webp");
 
+        }
+</style>
 </body>
 
 </html>
