@@ -122,3 +122,6 @@
     font-style: bold;
     font-size: large;
 }
+li{
+    list-style: none;
+}
